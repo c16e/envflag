@@ -2,7 +2,7 @@
   "name": "Envflag",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Indicate development, staging or production site by simple icon",
+  "description": "Indicate development, staging or production site by simple icons",
   "homepage_url": "http://craftsman-software.com",
   "icons": {
     "16": "icons/icon16.png",
