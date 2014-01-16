@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Indicate development, staging or production site by simple icons",
-  "homepage_url": "http://craftsman-software.com",
+  "homepage_url": "https://github.com/c16e/envflag",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
