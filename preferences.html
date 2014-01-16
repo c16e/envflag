@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<title>Envflag Preferences</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<div class="container" style="padding: 50px;">
+  <p class="lead">Envflag Preferences</p>
+  <form role="form">
+    <div class="form-group">
+      <label for="config">Environment Definition</label>
+      <textarea id="config" class="form-control" rows="15" placeholder="dev dev.example.com"></textarea>
+    </div>
+  </form>
+  <p class="lead">Documentation</p>
+  <p>Environment Definition Format</p>
+  <pre>(dev|stage|prod) [URL]</pre>
+  <p>Comments are also available. Comment line must start with <code>#</code>.</p>
+
+  <p>Example</p>
+  <pre>prod www.example.com
+stage stag.example.com
+dev dev.example.com
+
+# comments...
+prod www.foobar.com
+stage www.foobar.com/stag
+dev www.foobar.com/dev</pre>
+
+  <p class="lead">Author</p>
+  <p>Hidehito Nozawa &lt;<a href="mailto:suin@craftsman-software.com">suin@craftsman-software.com</a>&gt;</p>
+  <p><a href="http://craftsman-software.com" target="_blank">Craftsman Software, Inc.</a></p>
+
+  <p class="lead">Source Code and Bug Reports</p>
+  <p>github.com/c16e/envflag</p>
+</div>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="preferences.js"></script>
